@@ -49,7 +49,7 @@
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 1      &mo 2      &kp RIGHT_SHIFT  &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp MS_WHEEL_UP MS_WHEEL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "LAYER0";
         };
 
