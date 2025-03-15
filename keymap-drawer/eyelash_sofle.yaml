@@ -131,11 +131,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - '~'
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
@@ -144,11 +144,11 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - RGB OFF
-  - RGB ON
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -157,11 +157,11 @@ layers:
   - _
   - +
   - {type: held}
-  - '4'
-  - {t: '5', s: '%'}
-  - '6'
-  - RGB EFR
+  - RGB ON
+  - RGB EFF
   - RGB SPI
+  - RGB HUI
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - OUT USB
   - OUT BLE
@@ -170,14 +170,14 @@ layers:
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - $$mdi:progress-download$$
+  - RGB OFF
+  - RGB EFR
+  - RGB SPD
+  - RGB HUD
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB EFF
-  - RGB SPI
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
