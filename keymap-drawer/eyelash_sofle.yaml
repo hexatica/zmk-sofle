@@ -82,7 +82,7 @@ layers:
   - {t: '`', s: '~'}
   - {t: Sft+`, s: Sft+~}
   - {t: Sft+8, s: Sft+*}
-  - Sft+)
+  - {t: Sft+9, s: Sft+(}
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
@@ -94,8 +94,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+6
   - Sft+0
-  - {t: 'Alt+[', s: 'Alt+{'}
-  - {t: 'Alt+]', s: 'Alt+}'}
+  - {t: Alt+8, s: Alt+*}
+  - {t: Alt+9, s: Alt+(}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -107,8 +107,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
-  - Sft+Alt+{
-  - Sft+Alt+}
+  - {t: Sft+Alt+8, s: Sft+Alt+*}
+  - {t: Sft+Alt+9, s: Sft+Alt+(}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
