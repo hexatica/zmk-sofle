@@ -22,8 +22,8 @@
 
 &mmv {
     time-to-max-speed-ms = <1000>;
-    acceleration-exponent = <1>;
-    trigger-period-ms = <23>;
+    acceleration-exponent = <0>;
+    trigger-period-ms = <50>;
 };
 
 / {
@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &kp NUMBER_1    &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5     &mmv MOVE_UP     &kp F6        &kp F7        &kp F8      &kp F9     &kp F10      &trans
-&trans          &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0     &mmv MOVE_DOWN   &bt BT_CLR    &trans        &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans          &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &bt BT_NXT       &mmv MOVE_LEFT   &out OUT_USB  &out OUT_BLE  &trans      &trans     &kp LBRC     &kp RBRC
-&trans          &rgb_ug RGB_OFF &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &bt BT_PRV       &mmv MOVE_RIGHT  &trans        &trans        &sys_reset  &soft_off  &bootloader  &trans
-&bt BT_CLR_ALL  &trans          &trans           &trans           &trans           &trans           &mkp LCLK        &trans        &trans        &trans      &trans     &trans
+&kp TILDE       &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &mmv MOVE_UP     &kp F6        &kp F7        &kp F8      &kp F9     &kp F10      &trans
+&trans          &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0    &mmv MOVE_DOWN   &bt BT_CLR    &trans        &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans          &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &bt BT_NXT      &mmv MOVE_LEFT   &out OUT_USB  &out OUT_BLE  &trans      &trans     &kp LBRC     &kp RBRC
+&trans          &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &bt BT_PRV      &mmv MOVE_RIGHT  &trans        &trans        &sys_reset  &soft_off  &bootloader  &trans
+&bt BT_CLR_ALL  &trans           &trans           &trans           &trans           &trans          &mkp LCLK        &trans        &trans        &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
