@@ -81,7 +81,7 @@ layers:
   - $$mdi:skip-next$$
   - {t: '`', s: '~'}
   - {t: Sft+`, s: Sft+~}
-  - Sft+(
+  - {t: Sft+8, s: Sft+*}
   - Sft+)
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
