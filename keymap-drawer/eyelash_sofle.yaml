@@ -65,7 +65,7 @@ layers:
   - '2'
   - $$mdi:apple-keyboard-command$$
   layer1:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
   - F1
   - F2
   - F3
@@ -78,11 +78,11 @@ layers:
   - F9
   - F10
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
-  - {t: ;, s: ':'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F12
+  - $$mdi:skip-next$$
+  - {t: '`', s: '~'}
+  - {t: Sft+`, s: Sft+~}
+  - Sft+(
+  - Sft+)
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
@@ -91,11 +91,11 @@ layers:
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '`', s: '~'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+6
+  - Sft+0
+  - {t: 'Alt+[', s: 'Alt+{'}
+  - {t: 'Alt+]', s: 'Alt+}'}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -105,14 +105,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:backspace-reverse-outline$$
+  - Sft+Alt+{
+  - Sft+Alt+}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:skip-next$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Ins
   - F11
   - F12
