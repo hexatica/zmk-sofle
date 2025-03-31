@@ -84,12 +84,12 @@ layers:
   - {t: Sft+`, s: Sft+~}
   - {t: Sft+8, s: Sft+*}
   - {t: Sft+9, s: Sft+(}
-  - '&mkp MB4'
+  - {t: ',', s: <}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -97,7 +97,7 @@ layers:
   - Sft+0
   - {t: Alt+8, s: Alt+*}
   - {t: Alt+9, s: Alt+(}
-  - '&mkp MB5'
+  - {t: ., s: '>'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
