@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5    &kp PAGE_UP    &kp F6        &kp F7        &kp F8      &kp F9     &kp F10      &trans
-&trans          &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0    &kp PAGE_DOWN  &bt BT_CLR    &trans        &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans          &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &bt BT_NXT      &kp BACKSPACE  &out OUT_USB  &out OUT_BLE  &trans      &trans     &kp LBRC     &kp RBRC
-&trans          &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &bt BT_PRV      &kp DELETE     &trans        &trans        &sys_reset  &soft_off  &bootloader  &trans
-&bt BT_CLR_ALL  &trans           &trans           &trans           &trans           &trans          &trans         &trans        &trans        &trans      &trans     &trans
+&kp TILDE       &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5    &rgb_ug RGB_BRI  &kp F6        &kp F7        &kp F8      &kp F9     &kp F10      &trans
+&trans          &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0    &rgb_ug RGB_BRD  &bt BT_CLR    &trans        &kp F11     &kp F12    &kp UNDER    &kp PLUS
+&trans          &kp LS(TAB)     &kp UP_ARROW    &kp TAB          &kp LC(R)     &bt BT_NXT      &rgb_ug RGB_HUI  &out OUT_USB  &out OUT_BLE  &trans      &trans     &kp LBRC     &kp RBRC
+&trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(D)     &bt BT_PRV      &rgb_ug RGB_EFF  &trans        &trans        &sys_reset  &soft_off  &bootloader  &trans
+&bt BT_CLR_ALL  &trans          &trans          &trans           &trans        &trans          &rgb_ug RGB_TOG  &trans        &trans        &trans      &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
