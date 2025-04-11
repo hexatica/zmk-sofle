@@ -137,7 +137,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - PgUp
+  - RGB BRI
   - F6
   - F7
   - F8
@@ -150,7 +150,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - PgDn
+  - RGB BRD
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
@@ -158,12 +158,12 @@ layers:
   - _
   - +
   - {type: held}
-  - RGB ON
-  - RGB EFF
-  - RGB SPI
-  - RGB HUI
+  - $$mdi:keyboard-tab-reverse$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:keyboard-tab$$
+  - Ctl+R
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - RGB HUI
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
@@ -171,12 +171,12 @@ layers:
   - '{'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB EFR
-  - RGB SPD
-  - RGB HUD
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - Ctl+D
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:backspace-reverse-outline$$
+  - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
