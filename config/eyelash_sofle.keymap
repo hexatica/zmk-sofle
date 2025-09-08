@@ -57,7 +57,7 @@
         layer_1 {
             bindings = <
 &kp BACKSLASH  &kp F1            &kp F2            &kp F3          &kp F4          &kp F5       &mmv MOVE_UP     &kp F6     &kp F7    &kp F8      &kp F9     &kp F10    &kp DELETE
-&kp C_NEXT     &kp GRAVE         &kp LS(GRAVE)     &kp LS(N8)      &kp LS(N9)      &kp COMMA    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP      &kp END    &kp MINUS  &kp EQUAL
+&kp SEMICOLON  &kp GRAVE         &kp LS(GRAVE)     &kp LS(N8)      &kp LS(N9)      &kp COMMA    &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP      &kp END    &kp MINUS  &kp EQUAL
 &trans         &kp LS(NUMBER_6)  &kp LS(NUMBER_0)  &kp LA(N8)      &kp LA(N9)      &kp DOT      &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN    &kp RIGHT  &trans     &trans
 &trans         &kp BACKSPACE     &kp DELETE        &kp LS(LA(N8))  &kp LS(LA(N9))  &kp RET      &mmv MOVE_RIGHT  &trans     &trans    &kp INSERT  &kp F11    &kp F12    &trans
 &kp C_PP       &trans            &trans            &trans          &trans          &trans       &mkp LCLK        &trans     &trans    &trans      &trans     &trans
