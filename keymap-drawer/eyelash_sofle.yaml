@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:skip-next$$
+  - {t: ;, s: ':'}
   - {t: '`', s: '~'}
   - {t: Sft+`, s: Sft+~}
   - {t: Sft+8, s: Sft+*}
