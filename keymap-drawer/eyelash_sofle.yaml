@@ -161,7 +161,7 @@ layers:
   - $$mdi:keyboard-tab-reverse$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - OUT BLE
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - RGB HUI
   - OUT USB
@@ -174,7 +174,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Ctl+D
+  - OUT USB
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - RGB EFF
   - {t: '$$mdi:transfer$$', type: trans}
