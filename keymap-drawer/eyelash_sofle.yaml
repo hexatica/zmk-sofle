@@ -152,7 +152,7 @@ layers:
   - '0'
   - RGB BRD
   - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - studio unlock
   - F11
   - F12
   - _
